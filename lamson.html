@@ -1,3 +1,15 @@
+<script src="https://www.google.com/recaptcha/api.js?render=6LcKobEqAAAAAKplw64aNqemioXK08KD78a5H554"></script>
+   <script>
+      function onClick(e) {
+        e.preventDefault();
+        grecaptcha.ready(function() {
+          grecaptcha.execute('6LcKobEqAAAAAKplw64aNqemioXK08KD78a5H554', {action: 'submit'}).then(function(token) {
+              // Add your logic to submit to your backend server here.
+          });
+        });
+      }
+  </script>
+
 <html dir="ltr" lang="vi" class="infinite-scroll-state-loaded"><head><!--[ <head> Open ]-->
 <!-- Google tag (gtag.js) -->
 <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-1CK30T260X&amp;l=dataLayer&amp;cx=c&amp;gtm=45je4cc1v9203028351za200"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JCJZ5GZ54G"></script>
